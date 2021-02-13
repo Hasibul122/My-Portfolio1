@@ -1,0 +1,23 @@
+/*Controls CSS*/
+button:focus{
+    outline: none;
+}
+.portfolio_nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.portfolio_nav button{
+    background: #000;
+    border:none;
+    color:#fff;
+    font-size:16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:10px 23px;
+    margin-bottom: 5px;
+    transition: .4s;
+}
+.portfolio_nav button:hover, button.mixitup-control-active{
+    background: #15e2cf;
+    cursor:pointer;
+}
